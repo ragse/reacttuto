@@ -1,0 +1,42 @@
+import React from "react"
+import ReactDOM from "react-dom"
+
+const divStyle = {
+  color: 'blue',
+};
+
+function MyInfo() {
+  return (
+    <div>
+      <h1 style={divStyle}>Esgar RoVe </h1>
+      <p>
+        so im new in react but i really want to learn how 
+        can i use it 
+      </p>
+      <ul>
+        <li>
+          madrid
+        </li>
+        <li>
+          paris
+        </li>
+        <li>
+          NY
+        </li>
+      </ul>
+      <ol>
+        <li>
+          R. Checa
+        </li>
+        <li>
+          London
+        </li>
+      </ol>
+    </div>
+  )
+}
+
+ReactDOM.render(
+  <MyInfo />,
+  document.getElementById("root")
+)
