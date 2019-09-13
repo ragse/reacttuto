@@ -1,0 +1,7 @@
+git add "nombre del archivo"
+
+git status //verifica el status del archivo agregado 
+
+git commit -m "first commit" text  //hace un commit del archivo elegido 
+
+git push -u origin master //sube el archivo elegido duh 
